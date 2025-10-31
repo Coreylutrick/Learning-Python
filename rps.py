@@ -9,7 +9,7 @@ class RPS(Enum):
 
 print("")
 
-player_choice = input("Enter...\n1 for Rock\n2 for Paper\n3 for Scissor\n\n")
+player_choice = input("Enter...\n1 For Rock\n2 For Paper\n3 For Scissor\n\n")
 
 player = int(player_choice)
 
