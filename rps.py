@@ -13,7 +13,7 @@ player_choice = input("Enter...\n1 for Rock\n2 for Paper\n3 for Scissor\n\n")
 
 player = int(player_choice)
 
-if player < 1 | player > 3:
+if player < 1 or player > 3:
     sys.exit("Pick a number 1 through 3")
 
 computer_choice = random.choice("123")
